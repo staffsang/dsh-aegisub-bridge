@@ -1,0 +1,12 @@
+{
+  "name": "@dsh-external/dsh-aegisub-bridge",
+  "version": "0.1.0",
+  "description": "Aegisub memory subtitle bridge - read and write unsaved subtitles in a running Aegisub",
+  "private": true,
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "license": "BSD-3-Clause"
+}
