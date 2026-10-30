@@ -1,7 +1,7 @@
 {
   "name": "@dsh-external/dsh-aegisub-bridge",
-  "version": "0.1.0",
-  "description": "Aegisub memory subtitle bridge - read and write unsaved subtitles in a running Aegisub",
+  "version": "0.2.0",
+  "description": "Aegisub memory subtitle bridge for DSH - read and write unsaved subtitles in a running Aegisub, with auto-detection and self-contained bridge scripts",
   "private": true,
   "type": "module",
   "main": "./lib/index.js",
