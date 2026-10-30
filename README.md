@@ -50,12 +50,6 @@ dev_inject_plugin F:/dsh/03-dev-infra/dsh-aegisub-bridge
 - 每次触发有几百毫秒开销，适合交互式逐段修改；几千行批量改建议一次性用 `replace`
 - `_legacy/` 是 scaffold 留下的 TypeScript 草稿，与 `lib/index.js` 不等价，不要作为实现使用
 
-## 仓库
-
-https://github.com/staffsang/dsh-aegisub-bridge
-
-改动流程：先在开发目录 `F:\dsh\03-dev-infra\dsh-aegisub-bridge` 验证（注入器 junction 指向那里），再复制到本仓库提交推送。
-
 ## 验收记录
 
 - 2026-10-31：读 73 条 Dialogue，前 5 行时间/样式/文本与 Aegisub 网格一致
