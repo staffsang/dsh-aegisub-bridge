@@ -1,5 +1,7 @@
 # dsh-aegisub-bridge
 
+[English](README.en.md) | 中文
+
 让 DSH 直接读写 **Aegisub 当前正在编辑、还没保存的字幕**。不用保存、不用关 Aegisub，改完立刻在编辑器和网格里看到。
 
 Aegisub 没有对外 API，本插件借它自己的 automation 机制：
